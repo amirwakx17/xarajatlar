@@ -1,0 +1,15 @@
+export const DEFAULT_CATEGORIES = [
+  { name: "Oziq-ovqat", color: "#e1622f", kind: "expense" },
+  { name: "Transport", color: "#3d5f9e", kind: "expense" },
+  { name: "Uy-joy", color: "#a97517", kind: "expense" },
+  { name: "Kommunal", color: "#1f9d6b", kind: "expense" },
+  { name: "Kiyim-kechak", color: "#8b5cf6", kind: "expense" },
+  { name: "Sog'liq", color: "#d24a5e", kind: "expense" },
+  { name: "Ta'lim", color: "#f59e0b", kind: "expense" },
+  { name: "Ko'ngilochar", color: "#0ea5a4", kind: "expense" },
+  { name: "Boshqa", color: "#7c746b", kind: "expense" },
+  { name: "Ish haqi", color: "#1f9d6b", kind: "income" },
+  { name: "Frilans", color: "#3d5f9e", kind: "income" },
+  { name: "Sovg'a", color: "#a97517", kind: "income" },
+  { name: "Boshqa daromad", color: "#7c746b", kind: "income" },
+];
