@@ -3,7 +3,7 @@ services:
     name: xarajatlar-hisoblagichi
     runtime: node
     plan: free
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --include=dev && npm run build
     startCommand: npm start
     healthCheckPath: /api/healthz
     autoDeploy: true
